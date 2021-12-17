@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thecultivist</title>
+    <!-- Bootstrap cdn -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- FontAwsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!---------- 1st header section start ------------->
+    <section>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-xl-3 nav_style mb-xl-5 mt-xl-3" href="#"
+            >THE <strong>CULTIVIST .</strong></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <button class="btn btn_style nav_btn_style" type="submit">
+                JOIN US
+              </button>
+              <button class="btn btn_style nav_btn_style" type="submit">
+                SIGN IN
+              </button>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!---------- 1st header section end ------------->
+
+    <!---------- 2nd applicationformtitle section start ------------->
+    <section>
+      <div>
+        <div class="container">
+          <div class="row">
+            <div
+              class="
+                col-xl-12 col-md-12
+                text-center
+                app_tit_style
+                mb-xl-3
+                mt-md-2
+              "
+            >
+              <h1>APPLICATION FORM</h1>
+            </div>
+            <div class="col-xl-12 text-center app_tit_style">
+              <h4>WELCOME</h4>
+            </div>
+            <div class="col-xl-12 text-center app_tit_style mb-xl-3">
+              <p>
+                Please fill out the following details so we can get your
+                application underway.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---------- 2nd applicationformtitle section end ------------->
+
+    
+    <!--  -->
+    <section>
+      <div>
+        <div class="container slider">
+          <div class="row">
+            <div class="col-xl-10 app_form_style">
+              <div class="accordion" id="accordionExample">
+                <!------------ Gneral information section start --------->
+                <div class="accordion-item accor_main_space">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button accor_style acco_btn_style"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      GENERAL INFORMATION
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <div class="ms-xl-5 geninfo_flabel_style">
+                        <h6>Your Details</h6>
+                      </div>
+                      <div class="ms-xl-5 me-xl-5">
+                        <form class="row needs-validation" novalidate>
+                          <div class="col-xl-6 col-12 mb-xl-0 mb-2">
+                            
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="FIRST NAME"
+                              aria-label="First name"
+                              maxlength="8"
+                              minlength="4"
+                              id="validationCustom01"
+                              required
+                            />
+                            <div class="valid-feedback">Looks good!</div>
+                          </div>
+                          <div class="col-xl-6 col-12 mb-xl-0 mb-2">
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="LAST NAME"
+                              aria-label="Last name"
+                            />
+                          </div>
+                          <div class="col-12 mt-xl-3 mb-xl-3 mb-4">
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="inputAddress"
+                              placeholder="EMAIL"
+                            />
+                          </div>
+                        </form>
+                      </div>
+
+                      <!--  -->
+
+                      <div class="ms-xl-5 geninfo_flabel_style">
+                        <h6>Mailing Address</h6>
+                      </div>
+                      <div class="ms-xl-5 me-xl-5">
+                        <div class="row">
+                          <div class="col-12 mb-xl-3 mb-2">
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="inputAddress"
+                              placeholder="ADDRESS1"
+                            />
+                          </div>
+                          <div class="col-12 mb-xl-3 mb-2">
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="inputAddress2"
+                              placeholder="ADDRESS2"
+                            />
+                          </div>
+                          <div class="col-12 mb-xl-3 mb-2">
+                            <select id="inputState" class="form-select">
+                              <option selected>UNITED STATES</option>
+                              <option>...</option>
+                            </select>
+                          </div>
+                          <div class="col-md-6 mb-xl-3 mb-2">
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="inputCity"
+                              placeholder="CITY"
+                            />
+                          </div>
+                          <div class="col-md-4 mb-xl-3 mb-2">
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="inputCity"
+                              placeholder="STATE"
+                            />
+                          </div>
+                          <div class="col-md-2 mb-xl-3 mb-4">
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="inputZip"
+                              placeholder="ZIPCODE"
+                            />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="ms-xl-5 geninfo_flabel_style">
+                        <h6>Did somebody refer you?</h6>
+                      </div>
+                      <div class="ms-xl-5 me-xl-5">
+                        <div class="row">
+                          <div class="col-12 mb-xl-3 mb-4">
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="inputAddress"
+                              placeholder="NAME"
+                            />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="ms-xl-5 geninfo_flabel_style">
+                        <h6>Did somebody give you a code?</h6>
+                      </div>
+                      <div class="ms-xl-5 me-xl-5">
+                        <div class="row">
+                          <div class="col-12 mb-xl-3 mb-4">
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="inputAddress"
+                              placeholder="CODE"
+                            />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="ms-xl-5 geninfo_flabel_style">
+                        <h6>Joint Membership</h6>
+                      </div>
+                      <div class="ms-xl-5 me-xl-5 mb-xl-5">
+                        <div class="row">
+                          <div class="form-check">
+                            <input
+                              class="form-check-input"
+                              type="radio"
+                              name="gridRadios"
+                              id="watch-me"
+                              value="option2"
+                            />
+                            <label class="form-check-label" for="gridRadios2">
+                              ADD A FAMILY MEMBER
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div id="show-me" style="display: none">
+                        <div class="ms-xl-5 me-xl-5">
+                          <div class="row">
+                            <div class="col">
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder="First name"
+                                aria-label="First name"
+                              />
+                            </div>
+                            <div class="col">
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Last name"
+                                aria-label="Last name"
+                              />
+                            </div>
+                            <div class="col-12 mt-xl-3 mb-xl-3">
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="inputAddress"
+                                placeholder="EMAIL"
+                              />
+                            </div>
+                            <div class="col-12 mb-xl-3">
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="inputAddress"
+                                placeholder="PHONE NUMBER"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="continue_style">
+                        <button
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="true"
+                        aria-controls="collapseTwo"
+                          type="submit"
+                          class="btn btn-primary continue_btn_style"
+                        >
+                          COUNTINUE
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!------------ Gneral information section end --------->
+
+                <!------------ payment details section start --------->
+                <div class="accordion-item accor_main_space">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="
+                        accordion-button
+                        collapsed
+                        accor_style
+                        acco_btn_style
+                      "
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      PAYMENT DETAILS
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <div class="ms-xl-5 mb-xl-3 payment_label">
+                        <p>
+                          The annual membership fee will not be charged until
+                          your membership is accepted.
+                        </p>
+                      </div>
+                      <div class="ms-xl-5 me-xl-5 mb-xl-5">
+                        <div class="row">
+                          <div class="col-12 mb-xl-3 mb-2">
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="inputAddress2"
+                              placeholder="CARD NUMBER"
+                            />
+                          </div>
+                          <div class="col-xl-6 mb-xl-3 mb-2">
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="MM / YY"
+                              aria-label="First name"
+                            />
+                          </div>
+                          <div class="col-xl-6 mb-2">
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="CVC / CVV"
+                              aria-label="First name"
+                            />
+                          </div>
+                          <div class="col-xl-6 mb-xl-3 mb-2">
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="FIRST NAME"
+                              aria-label="First name"
+                            />
+                          </div>
+                          <div class="col-xl-6 mb-xl-3 mb-2">
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="LAST NAME"
+                              aria-label="First name"
+                            />
+                          </div>
+                          <div class="form-check mb-xl-3 mb-2">
+                            <input
+                              class="form-check-input"
+                              type="radio"
+                              name="gridRadios"
+                              id="watch-me2"
+                              value="option2"
+                            />
+                            <label
+                              class="form-check-label mobile_label_style"
+                              for="gridRadios2"
+                            >
+                              ADD A BILLING ADDRESS IF IT'S DIFFERENT FROM THE
+                              PRIMARY ADDRESS.
+                            </label>
+                          </div>
+                          <div id="show-me2" style="display: none">
+                            <div class="ms-xl-5 me-xl-5">
+                              <div class="row">
+                                <div class="col-12 mb-xl-3 mb-2">
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    id="inputAddress"
+                                    placeholder="ADDRESS1"
+                                  />
+                                </div>
+                                <div class="col-12 mb-xl-3 mb-2">
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    id="inputAddress2"
+                                    placeholder="ADDRESS2"
+                                  />
+                                </div>
+                                <div class="col-12 mb-xl-3 mb-2">
+                                  <select id="inputState" class="form-select">
+                                    <option selected>UNITED STATES</option>
+                                    <option>...</option>
+                                  </select>
+                                </div>
+                                <div class="col-md-6 mb-xl-3 mb-2">
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    id="inputCity"
+                                    placeholder="CITY"
+                                  />
+                                </div>
+                                <div class="col-md-4 mb-xl-3 mb-2">
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    id="inputCity"
+                                    placeholder="STATE"
+                                  />
+                                </div>
+                                <div class="col-md-2 mb-xl-3 mb-2">
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    id="inputZip"
+                                    placeholder="ZIPCODE"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div>
+                            <button
+                              data-bs-toggle="collapse"
+                              data-bs-target="#collapseThree"
+                              aria-expanded="true"
+                              aria-controls="collapseThree"
+                              type="submit"
+                              class="btn btn-primary continue_btn_style mt-xl-4"
+                            >
+                              COUNTINUE
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!------------ payment details section end --------->
+
+                <!------------ about you section start --------->
+                <div class="accordion-item accor_main_space">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="
+                        accordion-button
+                        collapsed
+                        accor_style
+                        acco_btn_style
+                      "
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      ABOUT YOU
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <div class="me-xl-5 ms-xl-5 about_p_style">
+                        <p>
+                          If you'd like to speed up your application, please
+                          help us answering the following questions. Feel free
+                          to keep your answers brief — we just need a general
+                          sense in order to provide you with the best possible
+                          service.
+                        </p>
+                      </div>
+
+                      <div class="ms-xl-5 mb-xl-3 abt_label_style">
+                        <h6>
+                          What is it about The Cultivist that appeals to you?
+                        </h6>
+                      </div>
+                      <div class="ms-xl-5 me-xl-5 mb-xl-3 mb-2">
+                        <div class="col-12">
+                          <input
+                            type="text"
+                            class="form-control pb-5"
+                            id="inputAddress2"
+                          />
+                        </div>
+                      </div>
+
+                      <div class="ms-xl-5 mb-xl-3 abt_label_style">
+                        <h6>How did you hear about us?</h6>
+                      </div>
+                      <div class="ms-xl-5 me-xl-5 mb-xl-3 mb-2">
+                        <div class="col-12">
+                          <input
+                            type="text"
+                            class="form-control pb-5"
+                            id="inputAddress2"
+                          />
+                        </div>
+                      </div>
+
+                      <div class="ms-xl-5 mb-xl-3 abt_label_style">
+                        <h6>Your favorite exhibition, museum or artist?</h6>
+                      </div>
+                      <div class="ms-xl-5 me-xl-5 mb-xl-3 mb-2">
+                        <div class="col-12">
+                          <input
+                            type="text"
+                            class="form-control pb-5"
+                            id="inputAddress2"
+                          />
+                        </div>
+                      </div>
+                      <div>
+                        <div class="row">
+                          <div class="ms-xl-5 mb-xl-3 col-xl-4 abt_label_style">
+                            <h6>Do you collect art?</h6>
+                          </div>
+                          <div class="ms-xl-5 mb-xl-3 col-xl-3 mb-2">
+                            <div class="form-check">
+                              <input
+                                class="form-check-input"
+                                type="radio"
+                                name="gridRadios"
+                                id="watch-me3"
+                                value="option2"
+                              />
+                              <label class="form-check-label" for="gridRadios2">
+                                I DO
+                              </label>
+                            </div>
+                          </div>
+
+                          <div class="ms-xl-5 mb-xl-3 col-xl-3">
+                            <div class="form-check">
+                              <input
+                                class="form-check-input"
+                                type="radio"
+                                name="gridRadios"
+                                id="gridRadios2"
+                                value="option2"
+                              />
+                              <label class="form-check-label" for="gridRadios2">
+                                I DON'T
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="show-me3" style="display: none">
+                        <div class="ms-xl-5 me-xl-5">
+                          <div class="row">
+                            <div class="col-12 abt_label_style">
+                              <h6>
+                                How would you describe your collecting style?
+                              </h6>
+                            </div>
+                            <div class="col-12">
+                              <h6>
+                                <input
+                                  type="text"
+                                  class="form-control pb-5"
+                                  id="inputAddress2"
+                                />
+                              </h6>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="row">
+                          <div class="ms-xl-5 mb-xl-3 col-xl-4 abt_label_style">
+                            <h6>Do you travel often?</h6>
+                          </div>
+                          <div class="ms-xl-5 mb-xl-3 col-xl-3">
+                            <div class="form-check">
+                              <input
+                                class="form-check-input"
+                                type="radio"
+                                name="gridRadios"
+                                id="watch-me4"
+                                value="option2"
+                              />
+                              <label class="form-check-label" for="gridRadios2">
+                                YES
+                              </label>
+                            </div>
+                          </div>
+                          <div class="ms-xl-5 mb-xl-3 col-xl-3">
+                            <div class="form-check">
+                              <input
+                                class="form-check-input"
+                                type="radio"
+                                name="gridRadios"
+                                id="gridRadios2"
+                                value="option2"
+                              />
+                              <label class="form-check-label" for="gridRadios2">
+                                NO
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div id="show-me4" style="display: none">
+                        <div class="ms-xl-5 me-xl-5">
+                          <div class="row">
+                            <div class="col-12 abt_label_style">
+                              <h6>
+                                How would you describe your collecting style?
+                              </h6>
+                            </div>
+                            <div class="col-12 mb-xl-0">
+                              <h6>
+                                <input
+                                  type="text"
+                                  class="form-control pb-5"
+                                  id="inputAddress2"
+                                />
+                              </h6>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="ms-xl-5 me-xl-5 mb-xl-3">
+                        <div class="row">
+                          <div class="col-xl-12 mb-xl-3 abt_label_style">
+                            <h6>
+                              And finally, anything else you’d like to tell us
+                              about yourself?
+                            </h6>
+                          </div>
+                          <div class="col-12 mb-xl-0 mb-2">
+                            <input
+                              type="text"
+                              class="form-control pb-5"
+                              id="inputAddress2"
+                            />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="ms-xl-5 me-xl-5">
+                        <div class="row">
+                          <div class="col-xl-12 mb-xl-3 abt_label_style">
+                            <h6>UPLOAD YOUR PHOTO</h6>
+                          </div>
+                          <div class="col-xl-12 mb-xl-3 about_p_style">
+                            <p>
+                              Please upload a high-quality passport-style photo
+                              of approx. 1MB. This photo will be used as your
+                              profile picture for your membership card once your
+                              application is approved. You have the option of
+                              submitting a photo later.
+                            </p>
+                          </div>
+                          <div class="col-xl-12 mb-xl-3 mb-md-2">
+                            <button
+                              type="submit"
+                              class="btn btn-outline-secondary upload_btn_style"
+                            >
+                              UPLOAD
+                            </button>
+                          </div>
+
+                          <div class="col-xl-12 mb-xl-3">
+                            <button
+                              data-bs-toggle="collapse"
+                              data-bs-target="#collapseFour"
+                              aria-expanded="true"
+                              aria-controls="collapseFour"
+                              type="submit"
+                              class="btn btn-primary continue_btn_style"
+                            >
+                              CONTINUE
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!------------ about you section end --------->
+
+                <!------------ review and submit section start --------->
+                <div class="accordion-item accor_main_space">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="
+                        accordion-button
+                        collapsed
+                        accor_style
+                        acco_btn_style
+                      "
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour"
+                      aria-expanded="false"
+                      aria-controls="collapseFour"
+                    >
+                      REVIEW & SUBMIT
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFour"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <div class="ms-xl-5 me-xl-5">
+                        <div class="row">
+                          <div class="col-xl-12 mb-xl-3 review_label_style">
+                            <h6>
+                              Review your information and submit when you're
+                              ready .
+                            </h6>
+                          </div>
+                          <div class="col-xl-12 mb-xl-3">
+                            <div class="form-check">
+                              <input
+                                class="form-check-input"
+                                type="radio"
+                                name="gridRadios"
+                                id="custom"
+                                value="option2"
+                              />
+                              <label
+                                class="form-check-label review_check_style"
+                                for="custom"
+                              >
+                                ACCEPT OUR
+                                <span style="text-decoration: underline">
+                                  TERMS & CONDITIONS</span
+                                >
+                              </label>
+                            </div>
+                          </div>
+                          <div class="col-xl-12 mb-xl-3">
+                            <div class="form-check">
+                              <input
+                                class="form-check-input"
+                                type="radio"
+                                name="gridRadios"
+                                id="gridRadios22"
+                                value="option2"
+                              />
+                              <label
+                                class="form-check-label review_check_style"
+                                for="gridRadios22"
+                              >
+                                ACCEPT OUR<span
+                                  style="text-decoration: underline"
+                                >
+                                  MEMBER AGREEMENT & PRIVACY / NOTICE
+                                  POLICY</span
+                                >
+                              </label>
+                            </div>
+                          </div>
+                          <div class="col-xl-12 mb-xl-3">
+                            <a
+                                href="file:///E:/thecultivist/Template/success.html"
+                              >
+                            <div class="continue_style">
+                              
+                                <button
+                                  data-bs-toggle="collapse"
+                                  type="submit"
+                                  id="submit1"
+                                  class="btn btn-primary continue_btn_style"
+                                >
+                                  SUBMIT
+                                </button>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!------------ review and submit section end --------->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+
+    
+    <!-- Jquery -->
+    <script src="./assets/js/jquery.js"></script>
+    <!-- Bootstrap js -->
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.getElementsByClassName('needs-validation');
+          // Loop over them and prevent submission
+          var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            }, false);
+          });
+        }, false);
+      })();
+      </script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- JS -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
