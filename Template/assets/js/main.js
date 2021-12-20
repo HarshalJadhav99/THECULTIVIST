@@ -43,23 +43,3 @@ $(document).ready(function () {
     }
   });
 });
-
-// $("#submit").click(function () {
-//   var name = $("#custom").val();
-//   var second = $("#gridRadios22").val();
-//   if (name == "" || second == "") {
-//     swal({
-//       title: "Good job!",
-//       text: "You clicked the button!",
-//       icon: "success",
-//       button: "ok",
-//     });
-//   } else {
-//     swal({
-//       title: "Good job! Form is submitted successfully",
-//       text: "You clicked the button!",
-//       icon: "success",
-//       button: "ok",
-//     });
-//   }
-// });

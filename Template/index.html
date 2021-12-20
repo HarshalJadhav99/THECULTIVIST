@@ -18,6 +18,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    
   </head>
   <body>
     <!---------- 1st header section start ------------->
@@ -117,35 +118,43 @@
                         <h6>Your Details</h6>
                       </div>
                       <div class="ms-xl-5 me-xl-5">
-                        <form class="row needs-validation" novalidate>
+                        <form class="row needs-validation" novalidate >
                           <div class="col-xl-6 col-12 mb-xl-0 mb-2">
                             
                             <input
                               type="text"
+                             
                               class="form-control"
                               placeholder="FIRST NAME"
                               aria-label="First name"
                               maxlength="8"
                               minlength="4"
-                              id="validationCustom01"
+                              name="firstname"
+                               id="fname"
+                              
                               required
                             />
-                            <div class="valid-feedback">Looks good!</div>
+                           
                           </div>
                           <div class="col-xl-6 col-12 mb-xl-0 mb-2">
                             <input
+                           
                               type="text"
                               class="form-control"
                               placeholder="LAST NAME"
                               aria-label="Last name"
+                              name="lastname"
+                              id="lname"
                             />
+                            
                           </div>
                           <div class="col-12 mt-xl-3 mb-xl-3 mb-4">
                             <input
                               type="text"
                               class="form-control"
-                              id="inputAddress"
+                              id="email"
                               placeholder="EMAIL"
+                              id="email"
                             />
                           </div>
                         </form>
@@ -157,7 +166,7 @@
                         <h6>Mailing Address</h6>
                       </div>
                       <div class="ms-xl-5 me-xl-5">
-                        <div class="row">
+                        <form class="row">
                           <div class="col-12 mb-xl-3 mb-2">
                             <input
                               type="text"
@@ -204,14 +213,14 @@
                               placeholder="ZIPCODE"
                             />
                           </div>
-                        </div>
+                        </form>
                       </div>
 
                       <div class="ms-xl-5 geninfo_flabel_style">
                         <h6>Did somebody refer you?</h6>
                       </div>
                       <div class="ms-xl-5 me-xl-5">
-                        <div class="row">
+                        <form class="row">
                           <div class="col-12 mb-xl-3 mb-4">
                             <input
                               type="text"
@@ -220,14 +229,14 @@
                               placeholder="NAME"
                             />
                           </div>
-                        </div>
+                        </form>
                       </div>
 
                       <div class="ms-xl-5 geninfo_flabel_style">
                         <h6>Did somebody give you a code?</h6>
                       </div>
                       <div class="ms-xl-5 me-xl-5">
-                        <div class="row">
+                        <form class="row">
                           <div class="col-12 mb-xl-3 mb-4">
                             <input
                               type="text"
@@ -236,7 +245,7 @@
                               placeholder="CODE"
                             />
                           </div>
-                        </div>
+                        </form>
                       </div>
 
                       <div class="ms-xl-5 geninfo_flabel_style">
@@ -300,11 +309,15 @@
                       <div class="continue_style">
                         <button
                         data-bs-toggle="collapse"
-                        data-bs-target="#collapseTwo"
-                        aria-expanded="true"
-                        aria-controls="collapseTwo"
+                              data-bs-target="#collapseTwo"
+                              aria-expanded="true"
+                              aria-controls="collapseTwo"
                           type="submit"
                           class="btn btn-primary continue_btn_style"
+                         
+                         
+                        
+
                         >
                           COUNTINUE
                         </button>
@@ -834,30 +847,19 @@
     
     <!-- Jquery -->
     <script src="./assets/js/jquery.js"></script>
+
+     <!-- Popper JS -->
+     <script src=
+     "https://cdnjs.cloudflare.com/ajax/libs/
+      popper.js/1.12.9/umd/popper.min.js">
+     </script>
     <!-- Bootstrap js -->
-    <script>
-      // Example starter JavaScript for disabling form submissions if there are invalid fields
-      (function() {
-        'use strict';
-        window.addEventListener('load', function() {
-          // Fetch all the forms we want to apply custom Bootstrap validation styles to
-          var forms = document.getElementsByClassName('needs-validation');
-          // Loop over them and prevent submission
-          var validation = Array.prototype.filter.call(forms, function(form) {
-            form.addEventListener('submit', function(event) {
-              if (form.checkValidity() === false) {
-                event.preventDefault();
-                event.stopPropagation();
-              }
-              form.classList.add('was-validated');
-            }, false);
-          });
-        }, false);
-      })();
-      </script>
+    
+      
     <script src="./assets/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <!-- JS -->
     <script src="./assets/js/main.js"></script>
+   
   </body>
 </html>
